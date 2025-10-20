@@ -1,135 +1,75 @@
-<div align="center">
-  <br />
-    <a href="https://youtu.be/gu4pafNCXng" target="_blank">
-      <img src="public/readme/hero.webp" alt="Project Banner">
-    </a>
-  <br />
+📈 Modern Stock Market Platform – AI-Powered Real-Time Dashboard
 
-  <div>
-    <img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logoColor=white&logo=next.js&color=black"/>
-    <img src="https://img.shields.io/badge/-Better Auth-black?style=for-the-badge&logoColor=white&logo=betterauth&color=black"/>
-<img src="https://img.shields.io/badge/-Shadcn-black?style=for-the-badge&logoColor=white&logo=shadcnui&color=black"/>
-<img src="https://img.shields.io/badge/-Inngest-black?style=for-the-badge&logoColor=white&logo=inngest&color=black"/><br/>
+A modern AI-powered stock market platform built with Next.js, shadcn/ui, Better Auth, and Inngest.
+It allows users to track live stock prices, explore company fundamentals, manage personalized watchlists, receive automated alerts, and access AI-driven market insights.
 
-<img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=00A35C"/>
-<img src="https://img.shields.io/badge/-CodeRabbit-black?style=for-the-badge&logoColor=white&logo=coderabbit&color=9146FF"/>
-<img src="https://img.shields.io/badge/-TailwindCSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=38B2AC"/>
-<img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6"/>
+The admin dashboard makes it easy to manage stocks, publish financial news, and monitor user activity, while event-driven workflows handle alerts, earnings notifications, and daily AI summaries behind the scenes.
 
-  </div>
+⚙️ Tech Stack
 
-  <h3 align="center">Stock Market App — Alerts, Charts, AI Insights</h3>
+Next.js – Full-stack React framework with SSR, SSG, and API routes.
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://youtu.be/gu4pafNCXng" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+TailwindCSS – Utility-first CSS framework for fast, responsive UI design.
 
-## 📋 <a name="table">Table of Contents</a>
+shadcn/ui – Open-source React components with full customization and accessibility.
 
-1. ✨ [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+TypeScript – Strongly typed JavaScript for better maintainability and reliability.
 
-## 🚨 Tutorial
+Better Auth – Secure authentication (email/password, SSO, MFA).
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+Inngest – Event-driven workflows and background jobs (alerts, reporting, AI tasks).
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+Finnhub API – Real-time stock, crypto, and forex market data.
 
-<a href="https://youtu.be/gu4pafNCXng" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+MongoDB – Flexible, high-performance NoSQL database.
 
-## <a name="introduction">✨ Introduction</a>
+Nodemailer – Email notifications and alerts.
 
-AI-powered modern stock market app built with Next.js, Shadcn, Better Auth, and Inngest! Track real-time prices, set personalized alerts, explore company insights, and manage watchlists. The admin dashboard allows managing stocks, publishing news, and monitoring user activity, while event-driven workflows power automated alerts, AI-driven daily digests, earnings notifications, and sentiment analysis—perfect for devs who want a dynamic, real-time financial platform.
+CodeRabbit (optional) – AI-powered code review assistant.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+🚀 Key Features
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+📊 Real-Time Dashboard – Track live prices with interactive line & candlestick charts, filter by sector, performance, or market cap.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+🔍 Smart Search – Quickly find stocks using an intelligent search system.
 
-- **[Better Auth](https://www.better-auth.com/)** is a framework-agnostic authentication and authorization library for TypeScript. It provides built-in support for email/password login, social sign-on (Google, GitHub, Apple, and more), and multi-factor authentication, simplifying user authentication and account management.
+⭐ Watchlist & Alerts – Create personalized watchlists, set price/volume alerts, and receive instant emails.
 
-- **[CodeRabbit](https://jsm.dev/stocks-coderabbit)** is an AI-powered code review assistant that integrates with GitHub. It helps developers catch bugs, enforce best practices, and maintain consistent code quality across pull requests, reducing manual review effort and speeding up the development workflow.
+🧾 Company Insights – Access P/E ratio, EPS, revenue, news, filings, analyst ratings, and sentiment scores.
 
+⚡ Event-Driven Workflows – Automated price updates, scheduled alerts, and AI-powered reporting with Inngest.
 
-- **[Finnhub](https://finnhub.io/)** is a real-time financial data API that provides stock, forex, and cryptocurrency market data. It offers developers access to fundamental data, economic indicators, and news, making it useful for building trading apps, dashboards, and financial analysis tools.
+🤖 AI Alerts & Summaries – Daily digests, earnings notifications, and personalized summaries.
 
-- **[Inngest](https://jsm.dev/stocks-inngest)** is a platform for event-driven workflows and background jobs. It allows developers to build reliable, scalable automated processes such as real-time alerts, notifications, and AI-powered workflows.
+✉️ Custom Notifications – Tailored alerts and preferences for each user.
 
-- **[MongoDB](https://www.mongodb.com/)** is a flexible, high-performance NoSQL database. It stores data in JSON-like documents, supports dynamic schemas, and provides robust features for scalability, replication, and querying.
+📈 Analytics & Insights – Understand trends, user behavior, and engagement metrics.
 
-- **[Nodemailer](https://nodemailer.com/)** is a Node.js library for sending emails easily. It supports various transport methods such as SMTP, OAuth2, and third-party services, making it a reliable tool for handling transactional emails, notifications, and contact forms in applications.
+🧰 Getting Started
+📦 Prerequisites
 
-- **[Next.js](https://nextjs.org/docs)** is a powerful React framework for building full-stack web applications. It provides server-side rendering, static site generation, and API routes, allowing developers to create optimized and scalable apps quickly.
+Git
 
-- **[Shadcn](https://ui.shadcn.com/docs)** is an open-source library of fully customizable, accessible React components. It helps teams rapidly build consistent, visually appealing UIs while allowing full control over design and layout.
+Node.js
 
-- **[TailwindCSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to build custom, responsive designs quickly without leaving their HTML. It provides pre-defined classes for layout, typography, colors, and more.
+npm
 
-- **[TypeScript](https://www.typescriptlang.org/)** is a statically typed superset of JavaScript that improves code quality, tooling, and error detection. It is ideal for building large-scale applications and enhances maintainability.
+🌀 Clone the Repository
+git clone https://github.com/your-username/stock-market-app.git
+cd stock-market-app
 
-## <a name="features">🔋 Features</a>
-
-👉 **Stock Dashboard**: Track real-time stock prices with interactive line and candlestick charts, including historical data, and filter stocks by industry, performance, or market cap.
-
-👉 **Powerful Search**: Quickly find the best stocks with an intelligent search system that helps you navigate through Signalist.
-
-👉 **Watchlist & Alerts**: Create a personalized watchlist, set alert thresholds for price changes or volume spikes, and receive instant email notifications to stay on top of the market.
-
-👉 **Company Insights**: Explore detailed financial data such as PE ratio, EPS, revenue, recent news, filings, analyst ratings, and sentiment scores for informed decision-making.
-
-👉 **Real-Time Workflows**: Powered by **Inngest**, automate event-driven processes like price updates, alert scheduling, automated reporting, and AI-driven insights.
-
-👉 **AI-Powered Alerts & Summaries**: Generate personalized market summaries, daily digests, and earnings report notifications, helping users track performance and make data-driven decisions.
-
-👉 **Customizable Notifications**: Fine-tune alerts and notifications based on user watchlists and preferences for a highly personalized experience.
-
-👉 **Analytics & Insights**: Gain insights into user behavior, stock trends, and engagement metrics, enabling smarter business and trading decisions.
-
-And many more, including code architecture and reusability.
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/signalist_stock-tracker-app.git
-cd signalist_stock-tracker-app
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
+📥 Install Dependencies
 npm install
-```
 
-**Set Up Environment Variables**
+⚙️ Set Up Environment Variables
 
-Create a new file named `.env` in the root of your project and add the following content:
+Create a .env file in the project root:
 
-```env
 NODE_ENV='development'
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
 # FINNHUB
-NEXT_PUBLIC_NEXT_PUBLIC_FINNHUB_API_KEY=
+NEXT_PUBLIC_FINNHUB_API_KEY=
 FINNHUB_BASE_URL=https://finnhub.io/api/v1
 
 # MONGODB
@@ -142,37 +82,47 @@ BETTER_AUTH_URL=http://localhost:3000
 # GEMINI
 GEMINI_API_KEY=
 
-#NODEMAILER
+# NODEMAILER
 NODEMAILER_EMAIL=
 NODEMAILER_PASSWORD=
-```
 
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**MongoDB**](https://www.mongodb.com/products/platform/atlas-database), [**Gemini**](https://aistudio.google.com/prompts/new_chat?utm_source=chatgpt.com), [**Inngest**](https://jsm.dev/stocks-inggest), [**Finnhub**](https://finnhub.io).
 
-**Running the Project**
+👉 You can get API keys from MongoDB
+, Gemini
+, Inngest
+, and Finnhub
+.
 
-```bash
+🧪 Run the Project
 npm run dev
 npx inngest-cli@latest dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="links">🔗 Assets</a>
+Open http://localhost:3000
+ in your browser to view the application.
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/stocks-kit)**.
+🧠 About the Project
 
-<a href="https://jsm.dev/stocks-kit" target="_blank">
-  <img src="public/readme/videokit.webp" alt="Video Kit Banner">
-</a>
+This project was built as a scalable real-time financial platform, ideal for:
 
-## <a name="more">🚀 More</a>
+Developers exploring event-driven architectures
 
-**Advance your skills with Next.js Pro Course**
+Builders looking for a solid fintech base
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+Finance enthusiasts automating their market tracking
 
-<a href="https://jsm.dev/stocks-jsmpro" target="_blank">
-  <img src="public/readme/jsmpro.webp" alt="Project Banner">
-</a>
+It’s not just a demo — it’s a production-ready foundation to build your own product.
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new feature branch
+
+Submit a Pull Request 🚀
+
+📜 License
+
+This project is licensed under the MIT License.
