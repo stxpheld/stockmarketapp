@@ -1,11 +1,11 @@
-📈 Modern Stock Market Platform – AI-Powered Real-Time Dashboard
+# 📈 Modern Stock Market Platform – AI-Powered Real-Time Dashboard
 
 A modern AI-powered stock market platform built with Next.js, shadcn/ui, Better Auth, and Inngest.
 It allows users to track live stock prices, explore company fundamentals, manage personalized watchlists, receive automated alerts, and access AI-driven market insights.
 
 The admin dashboard makes it easy to manage stocks, publish financial news, and monitor user activity, while event-driven workflows handle alerts, earnings notifications, and daily AI summaries behind the scenes.
 
-⚙️ Tech Stack
+# ⚙️ Tech Stack
 
 Next.js – Full-stack React framework with SSR, SSG, and API routes.
 
@@ -45,7 +45,7 @@ CodeRabbit (optional) – AI-powered code review assistant.
 
 📈 Analytics & Insights – Understand trends, user behavior, and engagement metrics.
 
-🧰 Getting Started
+# 🧰 Getting Started
 📦 Prerequisites
 
 Git
@@ -54,14 +54,14 @@ Node.js
 
 npm
 
-🌀 Clone the Repository
+# 🌀 Clone the Repository
 git clone https://github.com/your-username/stock-market-app.git
 cd stock-market-app
 
-📥 Install Dependencies
+# 📥 Install Dependencies
 npm install
 
-⚙️ Set Up Environment Variables
+# ⚙️ Set Up Environment Variables
 
 Create a .env file in the project root:
 
@@ -93,7 +93,7 @@ NODEMAILER_PASSWORD=
 , and Finnhub
 .
 
-🧪 Run the Project
+# 🧪 Run the Project
 npm run dev
 npx inngest-cli@latest dev
 
@@ -101,7 +101,7 @@ npx inngest-cli@latest dev
 Open http://localhost:3000
  in your browser to view the application.
 
-🧠 About the Project
+# 🧠 About the Project
 
 This project was built as a scalable real-time financial platform, ideal for:
 
@@ -113,7 +113,7 @@ Finance enthusiasts automating their market tracking
 
 It’s not just a demo — it’s a production-ready foundation to build your own product.
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 
@@ -123,6 +123,6 @@ Create a new feature branch
 
 Submit a Pull Request 🚀
 
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License.
